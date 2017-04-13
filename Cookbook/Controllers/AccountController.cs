@@ -52,8 +52,8 @@ namespace Cookbook.Controllers
             catch
             {
                 Session["IsNewUser"] = Boolean.TrueString;
- 
-                Account account = new Account("hl6ei8egh", "132439745671385", "f7bunvOJ6Fg6Bqynodcx5TRQfaY");
+
+                Account account = new Account("thanhoangxuannghiep", "717816887269461", "SX64kGqqk6H35SEAf5PV2OnB90o");
                 Cloudinary cloudinary = new Cloudinary(account);
 
                 var uploadParams = new ImageUploadParams()
