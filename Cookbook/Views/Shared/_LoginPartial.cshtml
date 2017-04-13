@@ -102,6 +102,7 @@ else
         FB.login(function (response) {
             if (response.authResponse) {
                 var access_token = FB.getAuthResponse()['accessToken'];
+                console.log(access_token);
                 window.location = "/Account/FacebookLogin?token=" + access_token;
             } else {
                 console.log('User cancelled login or did not fully authorize.');
